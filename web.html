@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel ="stylesheet" href="web.css" >
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="whole">
+
+      <div class="up1"><img src="logo.png" style="height: 65% ; width:8%;"></div>
+
+        <div class="up">
+           <ul>
+        
+            <div id="main" style="color: aliceblue; padding-top: 0%; padding-bottom: 0%; padding-left: 0%; padding-right: 0%; height: 3%; display: flex ; align:Left; ">
+  
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+            
+            <li><a href=""><i class="fa fa-home"  style="font-size: 15px;"></i></a></li>
+            <li><a href=""><i class="fa fa-search" style="font-size: 15px;"></i></a></li>
+            <li><a href=""><i class="fa fa-cart-arrow-down" style="font-size: 15px;"></i></a></li>
+            <li><a href=""><i class="fa fa-cart-plus" style="font-size: 15px;"></i></a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">Login</button>
+                <div class="dropdown-content">
+                <a href="#">Dropshipper</a>
+                <a href="#">Consumer</a>
+                <a href="#">Business</a>
+                </div>
+              </div>
+              </li>
+            
+           </ul>
+        </div>
+        <!-- ///////////////////////////////////////// -->
+
+        
+<div id="mySidenav" class="sidenav" style="color: aliceblue;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+
+
+        <!-- //////////////////////////////////////////////////////// -->
+
+
+
+        <div class="icon">
+
+          <ul>
+            <li><a href="">Shoes</a></li>
+            <li><a href="">Mens</a></li>
+            <li><a href="">Women</a></li>             
+            <li><a href="">Home</a></li>
+            <li><a href="">Toys</a></li>
+
+            <li><a href="">Traditional</a></li>
+            <li><a href="">Sunglasses</a></li>
+            <li><a href="">Furniture</a></li>
+            <li><a href="">Acessories</a></li>
+
+          </ul>
+
+        </div>
+        <!--  //////////////////////////////////////////////////////-->
+      
+        <div class="col">
+
+        <div class="col1">
+          <div class="content" >
+            <h1 style="display: flex;justify-content: left; margin-left: 10%; padding-top: 5%; font-size:7cap   ; padding-bottom: 3%;">Dropshipper</h1>
+            <p style="margin-left: 10%;">"Empower your local store with our e-commerce platform, creating<br>  an online presence effortlessly.Boost sales through seamless networking<br>connect with dropshippers to expand your product range.<br> Transform your business into a digital success story with ease and convenience."</p>
+            <button  h class="btn btn-primary" style="margin-left: 10%; margin-bottom: 5%;"><a href="register.html" style="color: white; text-decoration: none;">Register</button>
+          </div>
+        </div>
+<!-- --------------------------------------------------------------------- -->
+        <div class="col2">
+          <div class="content2">
+            <h1  id="fix" style="display: flex; margin-left: 49%; padding-top: 5%; font-size:7cap   ; padding-bottom: 3%;">Consumer</h1>
+            <p style="margin-left: 50%;">Welcome to our e-commerce platform, where convenience meets flexibility.<br> Explore a diverse range of high-quality goods available for purchase, whether<br> you're a bulk buyer or looking for a single item. Enjoy seamless transactions and<br> discover a new level of convenience in your shopping experience with us.</p>
+            <button class="btn btn-primary" style="margin-left: 50%; margin-bottom: 5%;">Shop Online</button>
+          </div>
+        </div>
+<!-- --------------------------------------------------------------------------------- ----->
+
+        <div class="col3">
+          <div class="content3">
+            <h1 style="display: flex;justify-content: left; margin-left: 10%; padding-top: 5%; font-size:7cap   ; padding-bottom: 3%;">Business</h1>
+            <p style="margin-left:10% ;">"Empower your local store with our e-commerce platform, creating an online presence effortlessly.<br> Boost sales through seamless networking—connect with dropshippers to expand your product range.<br> Transform your business into a digital success story with ease and convenience.".</p>
+            <button class="btn btn-primary" style="margin-left: 10%; margin-bottom: 5%;">Create Online Store</button>
+          </div>
+        </div>
+        
+
+
+
+        <div class="L">
+
+          <div class="c1">
+             <img src="instapng.png" id="insta" style="height: 50px; width:50px;  margin-left: 35%;"><br><br><br>
+             <img src="facebook.png" id="fb" style="height: 59px; width:65px; margin-left: 32%;"><br><br><br>
+             <img src="gmail.png"  id="mail" style="height: 50px; width:50px; margin-left: 35%;"><br>
+          </div>
+      
+          <div class="c2">
+              <h2>About </h2><br>
+              <p> Careers</p><br>
+              <p>Wholesale</p><br>
+              <p>Shipping</p><br>
+          </div>
+      
+          <div class="c3">
+              <h2>Help</h2><br>
+              <p>Payments</p> <br>
+              <p>Security</p><br>
+              <p>Cancellations and returns</p><br>
+          </div>
+      </div>
+
+      
+      </div>
+
+</body>
+</html>

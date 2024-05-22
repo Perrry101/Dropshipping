@@ -1,0 +1,526 @@
+*
+{
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.whole
+{
+    background-color: rgb(0, 0, 0);
+    height: 200vh;
+    width: 100vw;
+    
+}
+
+
+.up1
+{
+  
+  background-color: black;
+  color: aliceblue;
+  height: 5%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.up
+{
+    background-color: black;
+    color: aliceblue;
+    height: 5%;
+    text-decoration: none;
+    width: 100vw;
+  
+}
+.up p
+{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.up a
+{
+    color:aliceblue
+}
+.up a i:hover
+{
+  transition:all 1.5s;
+    transform:scale(2);
+    
+}
+.up ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 1%;
+  
+}
+.up li
+{
+    padding-left: 10%;
+    text-decoration: none;
+    
+   
+}
+.logo1
+{
+    float: left;
+    margin-right: 8cap;
+    position:sticky;
+
+}
+
+
+.icon
+{
+    background-color: rgb(58, 60, 66);
+    height: 2%;
+    width:100vw;
+    margin-top: 2%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+.icon a
+{
+  color: white;
+  text-decoration: none;
+  display:flex;
+  float: left;
+
+  
+}
+
+.icon li
+{
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  list-style: none;
+  font-family:sans-serif;
+  padding-inline: 3.2%;
+  
+
+}
+
+.p1
+{
+    float: right;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+.p1 img
+{
+  height: fit-content;
+}
+.p2
+{
+    float: left;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.p3
+{
+    float:left;
+   
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+.p4
+{
+    float: right;
+    margin-top: 2%;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.p5
+{
+    float: right;
+    margin-top: 2%;
+   
+    margin-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.col
+{
+    
+    height: 20%;
+}
+.col1
+{
+    height: 150%;
+    width: 100vw;
+      border: white 0.5px solid;
+    background-color: black;
+    border-radius: 5px;
+    background-image: url(https://media.istockphoto.com/id/1222000503/photo/online-shopping-ecommerce-and-delivery-service-concept-paper-cartons-with-a-cart-or-trolley.jpg?s=612x612&w=0&k=20&c=-KtcXGW6yJ5EJrgeCW88iJNnEtFvNvTiSCkUJjjCkfs=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.col1 .content {
+
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  margin: 0%;
+  padding: 0%;
+
+  height: 100%;
+    width: 100vw;
+}
+.col2
+{
+  height: 150%;
+    width: 100vw;
+      border: white 0.5px solid;
+    background-color: black;
+    border-radius:  5px;
+    background-image: url(istock2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.col2 .content2 {
+
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  margin: 0%;
+  padding: 0%;
+ 
+  height: 100%;
+    width: 100vw;
+}
+.col3
+{
+  height: 150%;
+    width: 100vw;
+      border: white 0.5px solid;
+    
+     margin-right: 1%;
+     background-color: black;
+     border-radius: 5px;
+
+     background-image: url(https://media.istockphoto.com/id/1201193769/photo/international-team-of-coworkers-putting-colorful-puzzles-together.jpg?s=612x612&w=0&k=20&c=cOuN7CsMDSrTl8aKJ5yjx4-XciB01OfoUssy30VjgOg=);
+  
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+
+    
+    
+}
+
+.col3 .content3 {
+
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  margin: 0%;
+  padding: 0%;
+
+  height: 100%;
+    width: 100vw;
+}
+
+
+.last
+{
+    background-color: rgb(56, 53, 53);
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(149, 159, 159);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3efef;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #7a8283;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0; 
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;};}
+
+
+
+.L
+{
+
+
+   width:100vw;
+   height:40cap;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    display: flex;
+}
+
+.c1
+{
+     float: left; 
+    width: 33.33%;
+    padding: 40px;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    padding-top:65px;
+
+    
+}
+
+.c2
+{
+     float: left; 
+    width: 33.33%;
+    padding: 40px;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    padding-top:65px;
+    color: #acb0b0;
+    
+}
+
+.c3
+{
+     float: left; 
+    width: 33.33%;
+    padding: 40px;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    padding-top:65px;
+    color:  #acb0b0;
+  
+}
+
+.dropbtn {
+  background-color: #031625;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #030e1d;
+}
+
+
+
+/* /////////////////////////////////////MEDIA QUERIES//////////////////////////////////////////////////////////// */
+
+
+@media all and (min-width: 1024px ) 
+{
+
+  
+  .col1
+  {
+    height: 180%;
+  }
+  .col2 {
+    height:180% ;
+    font-size: 14.5px;
+    
+  } 
+
+#fix
+  {
+    margin-left: 49%;
+  }
+
+  .icon
+  {
+    height: 7%;
+  }
+}
+
+
+@media all  and (min-width:629px)
+{
+    
+    *
+    {
+        font-size: 15px;
+      
+
+    }
+
+    .icon
+    {
+      height:7% ;
+    } 
+
+    .col2
+    {
+      height: 185%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .content2
+    {
+      
+      justify-content: left;
+    }
+    
+    
+    
+    
+
+} 
+
+@media all and (max-width: 375px)
+{
+    *
+    {
+        font-size: 1px;
+        width: 100vw;
+
+    }
+
+    .up
+    {
+      height: 18%;
+    }
+}
+/* 
+@media all and (min-width:425px)
+{
+    *
+    {
+        font-size: 8.5px;
+    }
+
+    .icon
+    {
+      height:3% ;
+    }
+
+    .L
+    {
+      height: 50cap;
+    }
+
+    #insta
+    {
+      height: 1rem;
+      width: 1rem;
+    }
+
+    #fb
+    {
+      height: 1rem;
+      width: 1rem;
+    }
+
+    #mail
+    {
+      height: 1rem;
+      width: 1rem;
+    }
+}
+ */
